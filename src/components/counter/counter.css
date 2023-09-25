@@ -1,0 +1,34 @@
+.counter {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 57px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.counter__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.counter__number {
+    font-size: 72px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f7654a;
+}
+
+.counter__title {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.counter__text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #999;
+}

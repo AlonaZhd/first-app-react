@@ -1,0 +1,31 @@
+.post__wrapp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.post__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post__line {
+    width: 55px;
+    height: 6px;
+    margin-top: 45px;
+    background-color: #f7654a;
+}
+
+.post__title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    margin: 0;
+}
+
+.post__text {
+    font-size: 16px;
+    color: #999;
+}

@@ -1,0 +1,80 @@
+.footer {
+    background-color: #f7654a;
+    width: 100%;
+    height: 210px;
+}
+
+.footer--wrapp {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer__menu {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerline {
+    color: white;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 20px;
+}
+
+.footer__title {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    margin: 0;
+}
+
+.footer__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    background: white;
+    padding: 14px 30px;
+    text-align: right;
+    text-decoration: none;
+    position: relative;
+}
+
+.button::before {
+    content: "";
+    background-image: url("/public/svg/request.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 18px;
+    height: 21px;
+    margin-right: 15px;
+}
+
+.button__text {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.button__logo {
+    background-image: url("/public/svg/request.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 21px;
+}
